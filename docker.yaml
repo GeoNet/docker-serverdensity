@@ -1,0 +1,4 @@
+init_config:
+    docker_root: /host
+instances:
+    - url: unix://var/run/docker.sock

@@ -1,0 +1,7 @@
+[serverdensity]
+name=Server Density Repository for Enterprise Linux $releasever - $basearch
+baseurl=https://archive.serverdensity.com/el/$releasever
+failovermethod=priority
+enabled=1
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-serverdensity
